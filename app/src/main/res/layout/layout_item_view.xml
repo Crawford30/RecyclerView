@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/onlybelievelogo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            tools:src="@drawable/logo"
+            android:scaleType="fitCenter"
+            android:layout_marginEnd="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/onlybelievetitle"
+                android:layout_margin="8dp"
+                android:textSize="28dp"
+                tools:text="Only Believe"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/onlybelievelyrics"
+                android:layout_margin="8dp"
+                android:textSize="16dp"
+                tools:text="Fear not, little flock, from the cross to the throne,"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
